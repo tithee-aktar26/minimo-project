@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	line-height: 25px;
+}
+
+body{
+	font-family: tahoma;
+
+}
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 70%;
+    float: left;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 52px;
+    color: #6c6262f5;
+    padding-right: 0;
+}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+.getaway-section{
+    padding: 50px 0;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.getaway-content{}
+.getaway-content a{
+    text-decoration: none;
+    color: #a0929294;
+    text-transform: uppercase;
+}
+.getaway-content h2{
+    color: #00000080;
+    padding: 20px 0;
+}
+.getaway-content p{
+    color: #000000a6;
+    padding-bottom: 35px;
+}
+
+.lifestyle-section{
+    padding: 70px 0;
+}
+.floating{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-1-2{
+    width: 45%;
+    flex-basis: 45%;
+}
+.col-1-2 img{
+    width: 100%;
+    display: block;
+}
+.col-1-2 a{
+    color: #a0929294;
+    text-decoration: none;
+    padding-top: 30px;
+    display: block;
+}
+.col-1-2 h2{
+    color: #00000080;
+    padding: 20px 0;
+}
+.col-1-2 p{
+    color: #000000a6;
+}
+
+footer{
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.copyright{}
+.copyright ul{
+    display: flex;
+    list-style-type: none;
+}
+.copyright ul li{}
+.copyright ul li a{padding: 0 20px;text-decoration: none;color: #000;padding-left: 0;}
+
+.socail{
+    width: 92px;
+}
+.socail ul{
+    display: flex;
+    list-style-type: none;
+}
+.socail ul li{}
+.socail ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 15px;
+}
